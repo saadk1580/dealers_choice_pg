@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.movie-img {
+  width: 300px;
+}
+
+.movie {
+  width: 400px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.backBtn > a {
+  font-size: 1.5rem;
+  width: 400px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.backBtn > a:hover {
+  color: white;
+  background-color: black;
+  transform: 2s;
+  transition: background-color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+.backBtn {
+  text-align: center;
+  margin-bottom: 30px;
+}
